@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+}
+
+/*Header*/
+
+header{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),url(../img/emilio-garcia-AWdCgDDedH0-unsplash.jpg);
+    height:50vh;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    
+    
+}
+body{
+    background-color: #e3e5e5;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 150px;
+
+}
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    font-size: 50px;
+    color: white;
+  }
+   
+nav{
+  position: absolute;
+  top: 150px;
+  left: 210px;    
+}
+nav a{
+    
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: rgba(28, 76, 92, 0.4);
+    color: white;
+}
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+    position: absolute;
+    bottom:0;
+    color: white;
+    left: 30px;
+    font-size: 35px;
+}
+/*Home*/
+.icon{
+    width: 40px;
+}
+.dates{
+    margin-bottom: 10px;
+}
+.places{
+    margin-bottom: 20px;
+}
+/*about*/
+#main-index, #main-about, #main-contact{
+    text-align: center;
+    padding: 20px 0;
+}
+#main-about{
+    width: 50%;
+    margin:0 auto;
+}
+#main-about p{
+    margin-top:5px;
+    margin-bottom: 25px;
+}
+#email{
+    width: 50px;
+}
+
+#main-contact p{
+margin: 15px
+}
+.current{
+    text-decoration: underline;
+}
+
+/*Gallery*/
+#container>div img{
+width: 100% ;
+height: 100%;
+}
+#container{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(5,150px);
+    grid-gap: 10px;
+    justify-content: center;
+
+}
+
+#container>div img:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+#container> div:nth-child(1){
+    grid-column: span 2;
+}
+#container> div:nth-child(2){
+    grid-column: span 2;
+}
+#container> div:nth-child(3){
+    grid-column: span 2;
+}
+#container> div:nth-child(6){
+    grid-row: span 2;
+}
+#container> div:nth-child(9){
+    grid-column: 2/span 2;
+    grid-row: 3;
+}
+#container> div:nth-child(10){
+    grid-column: span 2;
+}
+#container> div:nth-child(8){
+    grid-column: span 2 ;
+}
+#container> div:nth-child(12){
+    grid-row: 4;
+    grid-column: 4;
+}
+#container> div:nth-child(11){
+    grid-column: span 2;
+}
+/*Rules*/
+
+#main-rules{
+    margin: 35px 80px;
+}
+#main-rules>p{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+li{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+dt{
+    font-weight: bold;
+    margin: 20px 0;
+    color: #033949;
+}
+
+
+
+
+
+
